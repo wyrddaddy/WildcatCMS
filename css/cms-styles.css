@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+#cms-wrapper{
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+} 
+#site-id{
+	position:absolute;
+	right:0px;
+	top:10px;
+}
+#footer{
+	font-size:12px;
+}
+.nav{
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+}
+.nav a{
+	text-decoration:none;
+	color:#000000;
+}
+h4{
+	padding:0px;
+	margin:0px;
+}
+.last{
+	clear:both;
+}
+.clear-floats{
+	clear: both;
+}
+#admin-nav{
+	background-color:#dedede;
+	padding:5px;
+}
+.nav:hover{
+	background-color:#FFCC00;
+}
+#delete{
+	color:#FF0000;
+	text-align:right;
+}
+#cancel{
+}
+div.dir-tree{
+	overflow:scroll;	
+	height:500px;
+	width:30%;
+	float:left;	
+	white-space:nowrap;
+}
+div.dir-browse{	
+	width:70%;
+	float:left;	
+}
+#folder-grid{
+	display:none;
+}
+#file-grid{
+	display:none;
+}
+.false-href{
+	color:blue;
+	text-decoration:underline;
+	cursor:pointer;
+}
+ul.dir-tree{	
+    list-style: none outside none;
+    padding-left: 0px;	
+}
+ul.dir-tree li{	
+    list-style: none outside none;
+    padding: 0 18px 0;
+	cursor:pointer;	
+}
+ul.dir-tree li.file span.bullet{
+	background-position: 0 -128px !important;
+}
+ul.dir-tree li.dir span.bullet{
+	background-position: 0 0px;
+}
+ul.dir-tree li.dir.closed span.bullet{
+	background-position: 0 0px;
+}
+ul.dir-tree li.dir.open ul.dir-tree li.dir.closed span.bullet{
+	background-position: 0 0px !important;
+}
+ul.dir-tree li.dir.open span.bullet{
+	background-position: 0 -32px;
+}
+ul.dir-tree li.img span.bullet{
+	background-position: 0 -65px !important;
+}
+ul.dir-tree li.script span.bullet{
+	background-position: 0 -97px !important;
+}
+ul.dir-tree li.html span.bullet{
+	background-position: 0 -161px !important;
+}
+ul.dir-tree li.swf span.bullet{
+	background-position: 0 -193px !important;
+}
+ul.dir-tree.closed{
+	display:none;
+}
+.bullet{
+    height: 19px;
+    width: 21px;
+    position: relative;
+    top:2px; /*to align vertically*/
+    display: inline-block;
+    overflow: hidden;
+    background-image: url("/images/sprites/file-icons.gif");
+    background-repeat: no-repeat;
+}

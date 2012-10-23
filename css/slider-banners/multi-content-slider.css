@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+#slider-container { 
+	height:400px;
+	width:940px;
+	overflow: hidden;
+    position:relative;
+}
+.slider-outer{
+	height:400px;
+	width:780px;
+	position:absolute;
+	top:0px;	
+}
+.slider-inner {
+	height:400px;
+	width:740px;
+	left:40px;
+	position:absolute;
+	top:0px;
+}
+.tab {
+	width: 40px;
+	position:absolute;
+	background-color:#000;
+	top:0px;
+	left:0px;
+	z-index:70;
+}
+.ticks {
+	left:60px;
+	top:360px;
+	position:absolute;
+	font-size:12px;
+}
+.tick {
+	border:2px solid #999;
+	color:#999;
+	width: 15px;
+	height: 15px;
+	background-color:#fff;
+	float:left;
+	text-align:center;
+	padding-top:2px;
+	margin:5px;
+	cursor:pointer;
+}
+.tick.active {
+	border:2px solid #000;
+	color:#000;
+}
+.clear {
+	clear:both;
+}
+#slider-container.homepage { 
+	height:250px;
+	width:960px;
+	overflow: hidden;
+    position:relative;
+}
+.slider-outer.homepage{
+	height:250px;
+	width:960px;
+	position:absolute;
+	top:0px;	
+}
+.slider-inner.homepage {
+	height:250px;
+	width:960px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	cursor:pointer;
+}
+.ticks.homepage {
+	left:20px;
+	top:210px;
+	position:absolute;
+	font-size:12px;
+}
+.hp-banner-one{
+	background: url('/images/home-feature/aria-wall.jpg');
+}
+.hp-banner-two{
+	background: url('/images/home-feature/web-mouse.png');
+}
+.hp-banner-three{
+	background: url('/images/home-feature/rose.jpg');
+}
+.hp-banner-four{
+
+}
+.hp-banner-five{
+
+}

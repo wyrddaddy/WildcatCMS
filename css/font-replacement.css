@@ -1,0 +1,35 @@
+/* CSS Document */
+
+@font-face {
+    font-family: 'WindsongRegular';
+    src: url('/css/fonts/Windsong-webfont.eot');
+    src: url('/css/fonts/Windsong-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/Windsong-webfont.woff') format('woff'),
+         url('/css/fonts/Windsong-webfont.ttf') format('truetype'),
+         url('/css/fonts/Windsong-webfont.svg#WindsongRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'DancingScriptOTRegular';
+    src: url('/css/fonts/DancingScript-Regular-webfont.eot');
+    src: url('/css/fonts/DancingScript-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/DancingScript-Regular-webfont.woff') format('woff'),
+         url('/css/fonts/DancingScript-Regular-webfont.ttf') format('truetype'),
+         url('/css/fonts/DancingScript-Regular-webfont.svg#DancingScriptOTRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'CalligraffitiRegular';
+    src: url('/css/fonts/Calligraffiti-webfont.eot');
+    src: url('/css/fonts/Calligraffiti-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/Calligraffiti-webfont.woff') format('woff'),
+         url('/css/fonts/Calligraffiti-webfont.ttf') format('truetype'),
+         url('/css/fonts/Calligraffiti-webfont.svg#CalligraffitiRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

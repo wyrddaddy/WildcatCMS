@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Common Quick Styles - Creative Wildcat */
+img {
+	border: 0px;
+}
+.clear-floats{
+	clear: both;
+}
+.align-left{
+	text-align: left;
+ }
+.align-right{
+	text-align: right; 
+}
+.align-center{
+	text-align: center;
+ }
+.bold {
+ 	font-weight:bold;
+}
+.underline{
+	text-decoration:underline;
+}
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
+}
+.serif{
+        font-family:georgia,garamond,serif;
+}
+.sans{
+        font-family:Verdana, Geneva, sans-serif;
+}
+.purple{
+	color:#2e1d26;
+}
+.margin-up{
+	margin-top:-15px;
+}
+.p-nav-element{
+	opacity:.75;
+}
+.highlight-thumb {
+	opacity:1 !important;
+}
+#portfolio-nav{
+	position:relative;
+	height:500px;
+	overflow:hidden;
+}
+#portfolio-nav .btn-up{
+	position:absolute;
+	z-index:20;
+	top:-10px;
+	left:0px;
+	opacity:.8;
+}
+#portfolio-nav .btn-down{
+	position:absolute;
+	z-index:20;
+	bottom:-10px;
+	left:0px;
+	opacity:.8;
+}
+#p-nav-elements{
+	z-index:5;
+	position:absolute;
+	top:0px;
+}
+.off{
+	display:none;
+}
+.web-banner{
+	background: url('/images/home-feature/web-mouse.png');
+	height:250px;
+}

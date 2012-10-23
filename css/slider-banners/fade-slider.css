@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Author Ryan Erb and Creative Wildcat */
+#fade-slider{
+  width:540px;
+  height:250px;
+  margin:0px;
+  padding:0px;
+  position:relative;
+}
+.position-zero{
+	position:absolute;
+	top:0px;
+	left:0px;
+}

@@ -1,0 +1,539 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+	font-size: 11px; 
+	font-family: Verdana, Geneva, sans-serif; 
+	text-align: left; 
+	color: #FFFFFF; 
+	margin: 8px; 
+}
+body{ 
+	font-size: 11px; 
+	font-family: Verdana, Geneva, sans-serif; 
+	text-align: left; 
+	color: #fff;
+	background-color: #000;
+}
+body.is-desktop{ 
+	background: url('/images/framework/habenaro-background.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+body.is-mobile{ 	
+	background: url('/images/framework/habenaro-background-mobile.jpg');
+	background-position: center top;
+	background-color: #000;
+	background-repeat: no-repeat;
+}
+h1{
+	text-align:left;
+	margin-left:10px;
+	font-size:14px;
+}
+h3{
+	text-align:left;
+	margin-left:10px;
+	font-size:14px;
+}
+#header{
+	position: relative;
+	z-index: 500;
+}
+/* Header and Primary Navigation */
+#header{
+	background:	url('/images/framework/header.png') no-repeat;
+	height:165px;
+	width:940px;	
+}
+#navigation-container{
+	position:absolute;
+	top:57px;		
+}
+a#nav-home{	
+	left:33px;
+	padding:9px 12px 9px;
+}
+a#nav-logo{	
+	left:410px;
+	padding:9px 12px 9px;
+	width:100px;
+	height:80px;
+	margin-top:-20px;
+}
+a#nav-menu{
+	left:137px;
+	width:89px;
+}
+a#nav-about{
+	left:278px;
+	width:86px;
+	padding:9px 2px 9px;
+}
+a#nav-gallery{
+	left:575px;
+	padding:9px 2px 9px;
+}
+a#nav-catering{
+	left:682px;
+	padding:9px 6px 9px;
+}
+a#nav-contact{
+	left:810px;
+	padding:9px 2px 9px;
+	width:110px;
+}
+a.primary-navigation{
+	position:absolute;
+	font-face:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	color:#fff; 	
+	padding:9px 10px 9px;
+	cursor:pointer;
+	text-decoration:none;
+}
+.primary-navigation:hover{
+	color:#cd9c19;
+}
+.primary-navigation a:visited{
+	text-decoration:none;
+	color:#fff;
+}
+/* Footer Components */
+#footer{
+	margin-top:10px;
+}
+#footer-address{
+	width:300px;
+	float:left;
+}
+#footer-phone{
+	width:150px;
+	float:left;
+}
+#footer-hours{
+	width:235px;
+	float:left;
+}
+#footer-social{
+	width:135px;
+	float:left;
+}
+#footer img{
+	padding-right:5px;
+}
+#footer-bottom{
+	text-align:center;
+	font-size:10px;
+	margin-top:10px;
+}
+
+
+/* Body Components */
+#body-container{	
+	margin-top: -69px;
+	background-color:#fff;
+}
+
+.pad-border{
+	margin:4px;
+}
+/* Opaque Lower Text Container */
+.opaque-bg{
+	
+}
+.align-bottom-left{	
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
+.grid_5.smaller{
+	width:265px !important;
+	margin:-3px 0 0 5px;
+	padding:0px;
+}
+#site-heading{
+	margin:5px 5px;
+	padding-left:5px;
+}
+/* Contact Form Dropdown */
+#contact-form{
+	background-color: #ffeab6;
+	opacity:.9;
+	position:absolute;
+	top:70px;
+	z-index:40;
+	margin:0px;
+	margin-left:-20px !important;
+	border: 20px solid rgb(0, 0, 0); /* default color */ 
+	border: 20px solid rgba(0, 0, 0, 0.8); /* rgba for transparency */
+	-moz-background-clip: padding; /* for Mozilla browsers*/
+	-webkit-background-clip: padding;   /* Webkit */
+	background-clip: padding-box; /*  browsers with full support */
+	color:#98090D;
+	padding:10px;
+	padding-top:50px;
+	height:520px;
+	display:none;
+}
+#contact-form p{
+	color:#98090D;
+}
+#cancel-email{
+	padding-bottom:6px;
+	cursor:pointer;
+}
+#contact-form input{
+	background-color:#4f2e1b;
+	color:#ffeab6;
+	padding:5px 5px 5px 5px;
+}
+#contact-form input.buttons{
+	background-color:#ffeab6;
+	padding:5px 5px 5px 5px;
+}
+#contact-form select{
+	background-color:#4f2e1b;
+	color:#ffeab6;
+}
+#contact-form textarea{
+	background-color:#4f2e1b;
+	color:#ffeab6;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:2px 2px 5px 5px;
+}
+#contact-form form tr.taller{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.contact-link{
+    cursor:pointer;
+}
+.form-error{
+	font-weight:bold;
+	position:absolute;
+	top:70px;
+	left: 320px;
+}
+.form-sucess{
+	font-weight:bold;
+	position:absolute;
+	top:70px;
+	left: 320px;
+	color:#4F2E1B;
+}
+/* Menu Dropdown */
+#dropdown{
+	background-color: #ffeab6; /* e1c27c */
+	opacity: .97;
+	position:absolute;
+	top:70px;
+	z-index:400;
+	margin:0px;
+	margin-left:-20px !important;
+	border: 20px solid rgb(0, 0, 0); /* default color */ 
+	border: 20px solid rgba(0, 0, 0, 0.8); /* rgba for transparency */
+	-moz-background-clip: padding; /* for Mozilla browsers*/
+	-webkit-background-clip: padding;   /* Webkit */
+	background-clip: padding-box; /*  browsers with full support */
+	color:#98090d;
+	padding:10px;
+	padding-top:60px;
+	height:500px;
+	display:none;
+}
+#dropdown p {color:#98090d;}
+#dropdown-close {
+    cursor:pointer;
+    padding:10px;
+    position:absolute;
+    z-index:700;
+    left:682px;
+	top:110px;
+	color:#000;
+	display:none;
+}
+#menu-viewport{
+	overflow:hidden;
+	height:400px;
+	width:370px;
+	margin-top:25px;
+}
+#menu-content{
+	height:400px;	
+	width:390px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	-webkit-user-select:none;
+    -webkit-text-size-adjust:none;
+	-webkit-overflow-scrolling: touch !important;
+}
+#menu-list{
+	width:55%;
+	float:left;
+}
+#menu-images{
+	width:45%;
+	float:left;
+	text-align:right;
+}
+#print-menu{
+	position:absolute;
+	bottom:30px;
+	left:20px;
+}
+#menu-images p.menu-item {text-align:right;}
+.shadow {
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+.shadow-small {
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.menu-item{
+	height:120px;
+	overflow:hidden;
+}
+.menu-item.specials{
+	width:350px;
+}
+.menu-item.specials strong{
+	font-face: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+}
+.heading-menu-one{
+	width:150px;
+	float:left;
+	padding-left:30px;
+}
+.heading-menu-two{
+	width:180px;
+	float:left;
+}
+.heading-menu-three{
+	width:190px;
+	float:left;
+}
+.menu-divide{
+	color:#000;
+}
+#menu-headings h2{
+	font-size:14px;	
+	margin-bottom:3px;
+	letter-spacing:-1px;
+}
+#menu-selection a:hover{
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow: #000 1 1 3px;
+}
+#menu-selection a:visited, #menu-selection a{
+	font-weight:normal;
+	text-decoration:none;
+	color:#98090d;
+}
+#menu-category-marker{
+	position:absolute;
+	top:140px;
+	left:18px;
+	height:15px;
+	width:16px;
+	background:url('/images/framework/menu-category-icon.png') left top no-repeat;
+	display:none;
+}
+#menu-category-marker.darker{
+	overflow:none;
+	background:url('/images/framework/menu-category-icon.png') left bottom no-repeat;
+}
+.menu-select-space{
+	line-height:2;
+	padding-top:25px;
+}
+.menu-select-behavior{
+	cursor:pointer;
+	font-weight:normal;
+}
+.menu-select-behavior-on{
+	font-weight:bold !important;
+}
+#menu-selection{
+	width: 150px;
+	height:400px;
+}
+/* Menu Scrollbar */
+#menu-scroll-container{
+	position:absolute;
+	top:160px;
+	right:6px;
+	height:350px;
+	width:19px;
+}
+#menu-scroll-top, #menu-scroll-bottom, #menu-scroll-bar, #menu-scroll-scroller-container, #menu-scroll-scroller{
+	width:19px;
+	position:absolute;
+	left:0px;	
+}
+#menu-scroll-bar{
+	background:url("/images/framework/menu-line-scroller.png") center no-repeat;
+	top:30px;
+	height:290px;
+}
+#menu-scroll-top{
+	background:url("/images/framework/menu-scroller-sprite.png") left top no-repeat;
+	top:0px;
+	height:30px;
+	cursor:pointer;
+}
+#menu-scroll-bottom{
+	background:url("/images/framework/menu-scroller-sprite.png") left bottom no-repeat;
+	top:320px;
+	height:30px;
+	cursor:pointer;
+}	
+#menu-scroll-top:hover{
+	background:url("/images/framework/menu-scroller-sprite.png") right top no-repeat;
+}
+#menu-scroll-bottom:hover{
+	background:url("/images/framework/menu-scroller-sprite.png") right bottom no-repeat;
+}
+#menu-scroll-scroller-container{
+	top:25px;
+	height:300px;
+	position:relative !important;
+}
+#menu-scroll-scroller{
+	background:url("/images/framework/menu-scroller-icon-smaller.png") center no-repeat;
+	top:0%;
+	height:50px;
+	cursor:pointer;
+}
+/* Section Layers */
+
+/* Homepage Specific */
+/* I will need to update this to make it more generic for all pages */
+#section-1.body-image-viewport{	
+	margin:4px;
+	height:613px;
+	width:812px;
+	overflow:hidden;
+	position:relative;
+	background-color:#000;
+}
+.body-content.off{
+	display:none;
+}
+.slide-image{
+	position:absolute;
+	top:0px;
+	display:none;
+}
+#slider-previous{
+	width:70px;
+	height:90px;
+	position:absolute;
+	top:160px;
+	background: url('/images/framework/slider-arrow-sprite.png') left top no-repeat;
+	z-index:25;
+	cursor:pointer;
+	opacity:.5;
+}
+#slider-next{
+	width:70px;
+	height:90px;
+	position:absolute;
+	top:160px;
+	right:0px;
+	background: url('/images/framework/slider-arrow-sprite.png') right top no-repeat;
+	z-index:25;
+	cursor:pointer;
+	opacity:.5;
+}
+#content-area{
+}
+#content-area{	
+	position:absolute;
+	z-index:20;
+	background-color:#000;
+	opacity:.85;
+	background-color:rbg(0,0,0);
+	background-color:rbga(0,0,0,0.8);
+	width:812px !important;
+	margin-left: -1px;
+	margin-bottom: 0px;
+	height: 130px;
+}
+/*  Take homepage needs .8 opacity */
+#content-area.homepage{
+	opacity:.8 !important;
+}
+#content-area a{
+	text-decoration:underline;
+}
+#content-area .body-content h1{
+	position:absolute;
+	top:-6px;
+	left:0px;
+	margin-left:0px
+}
+#content-area .body-content h2{
+	position:absolute;
+	top:-6px;
+	left:0px;
+	margin-left:0px;
+}
+#content-area .body-content h3{
+	position:absolute;
+	top:-6px;
+	left:0px;
+	margin-left:0px
+}
+#content-area p{
+	padding-bottom:0px;
+}
+#content-area .body-content-section{
+	position:relative;
+	top:25px;
+}
+#content-area .body-content-section p{
+	margin:5px 5px;
+}
+#content-area p b{
+	font-size:14px;
+	font-weight:lighter;
+}
+#slide-counter{
+	position:absolute;
+	top:488px;
+	right:10px;
+	font-weight:bold;
+	color:#fff;
+	z-index:25;
+	font-size:14px;
+}
+.slide-image{
+	position:absolute;
+	z-index:10;
+}
+.slider-nav-ready{
+	opacity:.8 !important;
+}
+#slider-next.slider-nav-over{
+	opacity:1 !important;	
+	background: url('/images/framework/slider-arrow-sprite.png') right bottom no-repeat;
+}
+#slider-previous.slider-nav-over{
+	opacity:1 !important;	
+	background: url('/images/framework/slider-arrow-sprite.png') left bottom no-repeat;
+}
+.slider-nav-off{
+	display:none !important;
+}
